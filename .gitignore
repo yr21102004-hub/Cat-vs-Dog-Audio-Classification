@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+
+# Data & Models
+dataset/
+cats_dogs/
+temp_audio.wav
+
+# IDEs
+.vscode/
+.idea/
+scratch_repo/
