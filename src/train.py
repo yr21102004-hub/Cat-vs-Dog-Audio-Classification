@@ -47,6 +47,7 @@ if __name__ == "__main__":
         # Build model
         print("Training Random Forest model...")
         model = RandomForestClassifier(n_estimators=100, random_state=42)
+        
         model.fit(X_train, y_train)
         
         # Evaluate

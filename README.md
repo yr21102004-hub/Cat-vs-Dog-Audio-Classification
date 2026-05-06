@@ -28,7 +28,7 @@ Cat_Dog_Audio_Classification/
 
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/yr21102004-hub/Cat-vs-Dog-Audio-Classification.git
    cd Cat_Dog_Audio_Classification
    ```
 
