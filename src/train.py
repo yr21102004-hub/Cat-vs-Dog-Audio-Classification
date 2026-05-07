@@ -21,7 +21,7 @@ def load_data(dataset_path):
             
         for file in os.listdir(cls_dir):
             if file.endswith('.wav'):
-                file_path = os.path.join(cls_dir, file)
+                file_path = os.path.join(cls_dir, file) #datastes/cat/cat.wav
                 try:
                     features = extract_features(file_path)
                     X.append(features)

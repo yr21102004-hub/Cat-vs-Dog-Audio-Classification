@@ -7,8 +7,6 @@ venv/
 ENV/
 
 # Data & Models
-dataset/
-cats_dogs/
 temp_audio.wav
 
 # IDEs

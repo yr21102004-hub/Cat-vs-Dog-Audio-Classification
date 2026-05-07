@@ -21,7 +21,7 @@ def predict(file_path):
         features = extract_features(file_path)
         
         # Predict
-        prediction = model.predict(features.reshape(1, -1))
+        prediction = model.predict(features.reshape(1, -1)) 
         
         # Map label
         classes = {0: 'Cat 🐱', 1: 'Dog 🐶'}
